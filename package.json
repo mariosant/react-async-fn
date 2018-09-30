@@ -1,0 +1,35 @@
+{
+  "name": "react-async-fn",
+  "version": "0.1.0",
+  "description": "A hoc to help you handle async functions within react.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Marios Antonoudiou <mariosant@sent.com>",
+  "license": "MIT",
+  "dependencies": {
+    "refunk": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.1.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "delay": "^4.0.1",
+    "jest": "^23.6.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-json-view": "^1.19.1",
+    "react-test-renderer": "^16.5.2"
+  },
+  "peerDependencies": {
+    "react": "^16.5.2"
+  }
+}
